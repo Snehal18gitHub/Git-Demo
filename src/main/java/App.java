@@ -5,6 +5,10 @@ public class App {
 		
 		String str="Rupali";
 		System.out.println("Name ->"+str);
+		
+		if(str.equalsIgnoreCase(null)) {
+			return;
+		}
 
 	}
 
