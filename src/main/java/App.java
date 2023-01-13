@@ -9,6 +9,11 @@ public class App {
 		if(str.equalsIgnoreCase(null)) {
 			return;
 		}
+		
+		
+		for(int i=0;i<5;i++) {
+			System.out.println(i);
+		}
 
 	}
 
